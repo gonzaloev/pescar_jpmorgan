@@ -19,4 +19,19 @@ h1
 
 }
 
+.borde{
+    border: 1px solid red;
+    position: relative;
+    width: 250px;
+    height: 1000px;
+}
+
+.circulo{
+
+    border: 1px solid white;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+
 /* FOOTER */
