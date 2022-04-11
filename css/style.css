@@ -2,8 +2,8 @@ body
 {
     width: 100%;
     height: 100%;
-    background-image: url("../img/foto_grupal.jpeg");
-    background-position-y: 100px;
+    /* background-image: url("../img/foto_grupal.jpeg"); */
+    /* background-position-y: 100px; */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -13,11 +13,13 @@ h1
 {
     background-color: burlywood;
     text-align: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px;
     margin-top: 100;
-    margin-bottom: 100;
+    margin-bottom: 100; */
 }
-.header{
+.color-pricipal{
     background-color: orange;
 
 }
+
+/* FOOTER */
