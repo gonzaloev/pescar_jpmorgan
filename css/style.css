@@ -154,5 +154,13 @@ ul{
     transition: .5s ease;
     background-color: #008CBA;
   }
-
+/* fotos */
+.w-Img{
+    width: 500px;
+}
 /* FOOTER */
+.footer{
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 0; */
+}
