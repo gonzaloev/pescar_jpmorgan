@@ -19,4 +19,140 @@ h1
 
 }
 
+.borde{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+    height: 1000px;
+}
+
+.circulo{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circulo1{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circulo2{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circulo3{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circuloPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.circuloArriba{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+
+.circuloArriba1{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+.circuloArriba2{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+
+.circuloArriba3{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+
+ul{
+    list-style: none;
+}
+
+.circuloPerfil::hover{
+    opacity: 100;
+    background-image: url("../img/fondo.webp");
+}
+
+.circuloArriba:hover{
+    background-image: url("../img/fondo.webp");
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .circuloTexto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
 /* FOOTER */
